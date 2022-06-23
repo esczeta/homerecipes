@@ -8,7 +8,7 @@
 }
 
 h1{
-    color: rgba(23, 23, 25, 0.935);
+    color: rgba(0, 0, 0, 0.965);
     background-color: rgb(255, 255, 255);
     margin: 25px;
 
@@ -34,6 +34,8 @@ h1{
     margin-bottom:50px;
     height: 400px;
     width:400px;
+    border-radius: 0.4em;
+    
   }
   
 .ulhome{
@@ -46,10 +48,24 @@ li{
     padding: 3px;
 }
 
+.recipe{
+    color: #1a2735;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 5px;
+    background-color: aliceblue;
+    width: 700px;
+    border-radius: 10px;
+    border-style:none;
+}
+
 .description{
     padding: 10px;
     color: rgb(88, 127, 168);
-  
+    background-color: aliceblue;
+    width: 700px;
+    margin: auto;
+    border-radius: 50em;
 }
 
 p{
@@ -58,8 +74,6 @@ p{
     width: 700px;
     text-align: center;
     margin: auto;
- 
-
 }
    
 
@@ -70,6 +84,7 @@ p{
     background-color: antiquewhite;
     width: 700px;
     margin: auto;
+    border-radius: 10px 50px;
     
 }
 
@@ -78,7 +93,8 @@ p{
     color: rgb(59, 56, 56);
     background-color: aliceblue;
     width: 700px;
-   margin: auto;
+    margin: auto;
+    border-radius: 50em;
 
     
 }
