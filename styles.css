@@ -1,21 +1,22 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    box-sizing: border-box; 
     text-align: center;
+    font-family:sans-serif, "Times New Roman" ;
+
 }
 
 h1{
-    color: rgb(23, 23, 25);
-    font-family:sans-serif, "Times New Roman" ;
+    color: rgba(23, 23, 25, 0.935);
     background-color: rgb(255, 255, 255);
     margin: 25px;
 
 }
 
-div{
+.home{
     color: white;
-    background-color: rgb(172, 200, 217);
+    background-color: rgb(203, 215, 223);
     display:inline-block;
     
 
@@ -35,13 +36,53 @@ div{
     width:400px;
   }
   
-ul{
+.ulhome{
     color: rgb(200, 210, 214);
     margin: 0px;
-    font-family: sans-serif, "Times New Roman";
     
   }
 
 li{
     padding: 3px;
+}
+
+.description{
+    padding: 10px;
+    color: rgb(88, 127, 168);
+  
+}
+
+p{
+    padding: 25px;  
+    color: rgba(72, 77, 120, 0.748);
+    width: 700px;
+    text-align: center;
+    margin: auto;
+ 
+
+}
+   
+
+
+.ingredients{
+    padding: 10px;
+    color: rgb(59, 56, 56);
+    background-color: antiquewhite;
+    width: 700px;
+    margin: auto;
+    
+}
+
+.steps{
+    padding: 10px;
+    color: rgb(59, 56, 56);
+    background-color: aliceblue;
+    width: 700px;
+   margin: auto;
+
+    
+}
+
+ul, ol{
+    color: rgb(112, 108, 108);
 }
