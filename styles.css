@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1{
+    color: rgb(23, 23, 25);
+    font-family:sans-serif, "Times New Roman" ;
+    background-color: rgb(255, 255, 255);
+    margin: 25px;
+
+}
+
+div{
+    color: white;
+    background-color: rgb(172, 200, 217);
+    display:inline-block;
+    
+
+    margin:25px;
+    padding:50px;
+    border: 7px dotted whitesmoke;
+
+    height: 600px;
+    width: 600px;
+  }
+
+  img{
+
+    margin-top:50px;
+    margin-bottom:50px;
+    height: 400px;
+    width:400px;
+  }
+  
+ul{
+    color: rgb(200, 210, 214);
+    margin: 0px;
+    font-family: sans-serif, "Times New Roman";
+    
+  }
+
+li{
+    padding: 3px;
+}
