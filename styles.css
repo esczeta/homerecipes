@@ -6,12 +6,24 @@
     font-family:sans-serif, "Times New Roman" ;
 
 }
+a:visited { 
+    text-decoration: none; 
+    color: rgb(47, 47, 46); 
+   }
+
 
 h1{
     color: rgba(0, 0, 0, 0.965);
     background-color: rgb(255, 255, 255);
     margin: 25px;
 
+}
+
+blockquote{
+    padding: 20px;
+    font-size: small;
+    width: 1000px;
+    margin: auto;
 }
 
 .home{
@@ -47,6 +59,20 @@ h1{
 li{
     padding: 3px;
 }
+
+.ulhome li:hover{
+    padding: 5px;
+    border-style: none;
+    border-radius: 0.4em;
+    transition: all .3 linear;
+    background-color: rgba(204, 231, 240, 0.737);
+   
+
+    width:200px;
+    margin:auto;
+    
+}
+
 
 .recipe{
     color: #1a2735;
