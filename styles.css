@@ -1,56 +1,55 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px solid yellowgreen;
     text-align: center;
     font-family:sans-serif, "Times New Roman" ;
+    align-items: center;
+  
 
 }
-a:visited { 
-    text-decoration: none; 
-    color: rgb(47, 47, 46); 
-   }
 
 
-h1{
+img{
+
+    margin-top:50px;
+    margin-bottom:50px;
+    height: 400px;
+    min-width:400px;
+    border-radius: 0.4em;
+    flex-shrink: 1;
+  }
+
+  h1{
     color: rgba(0, 0, 0, 0.965);
     background-color: rgb(255, 255, 255);
     margin: 25px;
 
 }
 
-blockquote{
+  .pic{
+    color: white;
+    background-color: rgb(203, 215, 223);
+    margin:25px;
+    padding:50px;
+    border: 7px dotted whitesmoke;
+
+    height: 500px;
+    width: 500px;
+  }
+
+  blockquote{
     padding: 20px;
     font-size: small;
     width: 1000px;
     margin: auto;
 }
 
-.home{
-    color: white;
-    background-color: rgb(203, 215, 223);
-    display:inline-block;
-    
-
-    margin:25px;
-    padding:50px;
-    border: 7px dotted whitesmoke;
-
-    height: 600px;
-    width: 600px;
-  }
-
-  img{
-
-    margin-top:50px;
-    margin-bottom:50px;
-    height: 400px;
-    width:400px;
-    border-radius: 0.4em;
-    
-  }
-  
-.ulhome{
+  .ulhome{
     color: rgb(200, 210, 214);
     margin: 0px;
     
@@ -73,6 +72,10 @@ li{
     
 }
 
+a:visited { 
+    text-decoration: none; 
+    color: rgb(47, 47, 46); 
+   }
 
 .recipe{
     color: #1a2735;
@@ -103,15 +106,13 @@ p{
 }
    
 
-
 .ingredients{
     padding: 10px;
     color: rgb(59, 56, 56);
     background-color: antiquewhite;
     width: 700px;
     margin: auto;
-    border-radius: 10px 50px;
-    
+    border-radius: 10px 50px;  
 }
 
 .steps{
@@ -120,19 +121,32 @@ p{
     background-color: aliceblue;
     width: 700px;
     margin: auto;
-    border-radius: 50em;
-
-    
+    border-radius: 50em;  
 }
 
 ul, ol{
     color: rgb(112, 108, 108);
 }
 
-@media all and (max-width: 500px) {
-    body {
-        color: blueviolet;
+
+//respo
+@media screen and (max-width: 480px){
+    blockquote{
+        color: orangered;
+        font-size: 10px; 
     }
 
+    h1{
+        color:blueviolet;
+        font-size: 10px;
+
+    }
 
 }
+
+
+
+
+
+
+
