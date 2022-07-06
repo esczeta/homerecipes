@@ -1,37 +1,39 @@
-*{
+/* *{
     margin: 0px;
     padding: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     border: 2px solid yellowgreen;
     text-align: center;
     font-family:sans-serif, "Times New Roman" ;
-    align-items: center;
-  
+    
 
+} */
+
+.container {
+    text-align: center;
+    /* border: 2px solid green; */
+    font-family:sans-serif, "Times New Roman" ;
+    /* width: 1200px; */
+    /* max-width: 500px; */
 }
 
 
-img{
+/* img{
 
     margin-top:50px;
     margin-bottom:50px;
-    height: 400px;
-    min-width:400px;
+    height: 300px;
+    min-width:100px;
     border-radius: 0.4em;
     flex-shrink: 1;
-  }
 
-  h1{
-    color: rgba(0, 0, 0, 0.965);
-    background-color: rgb(255, 255, 255);
-    margin: 25px;
+  } */
 
-}
-
-  .pic{
+  /* .pic{
     color: white;
     background-color: rgb(203, 215, 223);
     margin:25px;
@@ -40,31 +42,55 @@ img{
 
     height: 500px;
     width: 500px;
-  }
+  } */
 
-  blockquote{
-    padding: 20px;
-    font-size: small;
-    width: 1000px;
-    margin: auto;
+  h1{
+    color: rgba(0, 0, 0, 0.965);
+    background-color: rgb(255, 255, 255);
+    margin: 25px;
+    font-family:sans-serif, "Times New Roman"
+
 }
 
-  .ulhome{
+.main-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40%;
+}
+
+
+
+  blockquote{
+    padding: 25px;
+    font-size: small;
+    margin: auto;
+    color:rgba(72, 77, 120, 0.748)
+    
+    }
+
+ul.home{
     color: rgb(200, 210, 214);
     margin: 0px;
+    font-family:sans-serif, "Times New Roman"
+
     
   }
 
 li{
     padding: 3px;
+    list-style-type: none;
+    text-align: center;
+    font-family:sans-serif, "Times New Roman"
 }
 
-.ulhome li:hover{
+ul.home li:hover{
     padding: 5px;
     border-style: none;
     border-radius: 0.4em;
     transition: all .3 linear;
     background-color: rgba(204, 231, 240, 0.737);
+    font-family:sans-serif, "Times New Roman"
    
 
     width:200px;
@@ -77,70 +103,110 @@ a:visited {
     color: rgb(47, 47, 46); 
    }
 
+
+
+
 .recipe{
     color: #1a2735;
     background-color: rgb(255, 255, 255);
     margin: auto;
     padding: 5px;
-    background-color: aliceblue;
-    width: 700px;
+    background-color: rgb(244, 248, 251);
+    /* width: 700px; */
     border-radius: 10px;
     border-style:none;
+    text-align: center;
+    font-family:sans-serif, "Times New Roman"
 }
 
 .description{
     padding: 10px;
-    color: rgb(88, 127, 168);
-    background-color: aliceblue;
-    width: 700px;
+    color: rgb(85, 103, 122);
+    /* background-color: aliceblue; */
+    /* width: 700px; */
     margin: auto;
     border-radius: 50em;
+    text-align: center;
+    font-family:sans-serif, "Times New Roman"
 }
 
 p{
     padding: 25px;  
     color: rgba(72, 77, 120, 0.748);
-    width: 700px;
+    /* width: 700px; */
     text-align: center;
     margin: auto;
+    font-family:sans-serif, "Times New Roman"
 }
    
+.recpic{
+    text-align: center;
+
+}
 
 .ingredients{
     padding: 10px;
     color: rgb(59, 56, 56);
-    background-color: antiquewhite;
-    width: 700px;
+    background-color: rgb(222, 219, 219);
+    width: 360px;
     margin: auto;
     border-radius: 10px 50px;  
+    text-align: center;
+    font-family:sans-serif, "Times New Roman"
+  
+
 }
 
 .steps{
     padding: 10px;
     color: rgb(59, 56, 56);
     background-color: aliceblue;
-    width: 700px;
+    width: 360px;
     margin: auto;
-    border-radius: 50em;  
+    border-radius: 50em; 
+    text-align: center; 
+    font-family:sans-serif, "Times New Roman"
 }
 
 ul, ol{
     color: rgb(112, 108, 108);
+    font-family:sans-serif, "Times New Roman"
 }
 
 
-//respo
-@media screen and (max-width: 480px){
+
+@media screen and (max-width: 374px){
     blockquote{
-        color: orangered;
+        color: rosybrown;
         font-size: 10px; 
+        font-size: 0.8em;
+       
     }
 
-    h1{
-        color:blueviolet;
-        font-size: 10px;
+    .recipe{
+        color:rosybrown;
+        font-size: 0.9em;
+    }
+
+    div{
+        display:flex;
+        width: 55px;
 
     }
+
+    .description, .ingredients, .steps{
+        color:rosybrown;
+        width: 100%;
+        font-size: 0.8em;
+
+
+
+    /* .recpic{
+        display:block;margin:0 auto;
+        max-width: 10%;
+    } 
+     */
+
 
 }
 
